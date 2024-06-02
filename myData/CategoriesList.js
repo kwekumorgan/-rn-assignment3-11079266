@@ -34,5 +34,29 @@ const categories= [
   };
 
  
-  
+  const styles= StyleSheet.create({
+    container: {
+      marginVertical: 16,
+    },
+    categoryItem: {
+      alignItems: 'right',
+      padding: 15 ,
+      backgroundColor: '#f0f0f0',
+      borderRadius: 8,
+      marginRight: 16,
+      width: 186,
+      height: 192,
+      justifyContent: 'space-between',
+    },
+    icon: {
+      width: 151,
+      height: 132,
+    },
+    title: {
+      fontSize: 16,
+      alignContent: 'left',
+      fontWeight:'bold',
+    },
+
+  });
   export default CategoryList;

@@ -32,3 +32,64 @@ const HomeScreen = ()=>{
     </ScrollView>
 );
     };
+    const styles = StyleSheet.create({
+        container:{
+            flex:1,
+            padding:16,
+            backgroundColor:'#ccc',
+        },
+        input:{
+            borderColor: '#fff',
+            borderWidth: 1,
+            padding: 8,
+            marginBottom: 16, 
+    
+        },
+       
+        horizontalBox: {
+            flexDirection: 'row',
+            alignItems: 'center',
+            backgroundColor: '#eee',
+            padding: 8,
+            marginBottom: 16,
+            width:430,
+            borderRadius:20,
+            height:50,
+          },
+    
+        firstItem:{
+            flexDirection:'row',
+            alignItems:'center',
+            padding:8,
+            justifyContent:'space-between',
+            marginTop:52,
+        },
+          horizontalText: {
+            flex: 1,
+            fontSize: 18
+          },
+        logo: {
+            width: 50,
+            height: 50,
+        },
+        dothedo:{
+            fontSize:36,
+            fontWeight:'bold',
+        },
+    
+        dothesay:{
+            justifyContent:'space-between',
+            flexDirection:'row',
+            marginTop:134,
+           
+        },
+        dothethree:{
+            marginTop:249,
+        },
+        stforcat:{
+            fontWeight:'bold',
+            fontSize: 24,
+        },
+    }); 
+
+ export default HomeScreen;

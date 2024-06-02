@@ -1,6 +1,6 @@
 import React from "react";
 import {View,Text,StyleSheet,FlatList} from 'react-native';
-import TaskItem from './myData/TaskItem';
+import TaskItem from './myData/TaskItem.js';
 
 const tasks = [
     { id: '1', title: 'Mobile App Development' },
@@ -34,4 +34,27 @@ const TaskList = ()=>{
     );
 };
 
+
+const styles = StyleSheet.create({
+    container: {
+      marginVertical: 16,
+    },
+    taskItem: {
+      padding: 16,
+      backgroundColor: '#f0f0f0',
+      borderRadius: 20,
+      marginBottom: 16,
+      alignItems: 'left',
+      justifyContent: 'center',
+      height:128,
+      width:510,
+      marginTop:10,
+    },
+    title: {
+      fontSize: 24,
+      fontWeight:'bold',
+    },
+  });
+
 export default TaskList;
+  
