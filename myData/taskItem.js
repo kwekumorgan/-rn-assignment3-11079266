@@ -1,7 +1,7 @@
 import React from "react";
 import {View,Text,StyleSheet} from 'react-native';
 
-const TaskItem =({task})=>{
+const taskItem =({task})=>{
     return(
         <View style={styles.container}>
             <Text style={styles.title}>{task.title}</Text>
@@ -9,6 +9,7 @@ const TaskItem =({task})=>{
         </View>
     );
 };
+
 const styles = StyleSheet.create({
     container:{
         padding: 16,
@@ -25,4 +26,4 @@ const styles = StyleSheet.create({
     
 });
 
-export default TaskItem;
+export default taskItem;

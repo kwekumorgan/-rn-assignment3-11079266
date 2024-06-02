@@ -1,6 +1,6 @@
 import React from "react";
 import {View,Text,StyleSheet,FlatList} from 'react-native';
-import TaskItem from './myData/TaskItem.js';
+import taskItem from './taskItem';
 
 const tasks = [
     { id: '1', title: 'Mobile App Development' },
@@ -20,7 +20,7 @@ const tasks = [
     { id: '15', title: 'Practice Piano' },
   ];
 
-const TaskList = ()=>{
+const taskList = ()=>{
     return(
         <FlatList
         data={tasks}
@@ -33,7 +33,6 @@ const TaskList = ()=>{
         />
     );
 };
-
 
 const styles = StyleSheet.create({
     container: {
@@ -56,5 +55,5 @@ const styles = StyleSheet.create({
     },
   });
 
-export default TaskList;
+export default taskList;
   
